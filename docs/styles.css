@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#color-display {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+#color-name {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+#rect-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+#color-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
